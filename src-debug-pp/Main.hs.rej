@@ -1,0 +1,9 @@
+diff a/src/Main.hs b/src/Main.hs	(rejected hunks)
+@@ -2,6 +2,7 @@
+ {-# LANGUAGE DeriveGeneric #-}
+ {-# LANGUAGE DeriveAnyClass #-}
+ {-# LANGUAGE ViewPatterns #-}
++{-# OPTIONS -F -pgmF debug-pp #-}
+ module Main (main) where
+ 
+ import Control.Monad

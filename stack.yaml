@@ -1,5 +1,10 @@
-resolver: lts-10.0
-extra-deps: []
+resolver: nightly-2018-01-21
+extra-deps:
+  - /Users/pepe/code/debug-hoed
+  - /Users/pepe/scratch/debug
 packages:
   - .
 compiler-check: newer-minor
+# ghc-options:
+#   "$locals":
+#     -F -pgmF debug-pp
